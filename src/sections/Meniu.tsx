@@ -41,13 +41,14 @@ export default function Meniu() {
           </p>
         </div>
 
-        {/* Filters */}
+        {/* Filters — sticky on mobile so the menu is always one tap away */}
         <div
-          className="reveal mt-10 flex gap-2 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          className="reveal sticky top-16 z-30 -mx-5 mt-10 bg-forest-deep/95 px-5 py-3 backdrop-blur-md sm:-mx-8 sm:px-8 md:static md:top-auto md:mx-0 md:bg-transparent md:px-0 md:py-0 md:backdrop-blur-none"
           style={{ ['--reveal-delay' as string]: '220ms' }}
           role="tablist"
           aria-label="Filtrează pizza după categorie"
         >
+          <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {CATEGORII.map((c) => (
             <button
               key={c.id}
@@ -63,6 +64,7 @@ export default function Meniu() {
               {c.label}
             </button>
           ))}
+          </div>
         </div>
 
         {/* Grid */}

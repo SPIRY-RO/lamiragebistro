@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-cream/10 py-5 text-center text-xs text-cream/40">
+      <div className="border-t border-cream/10 py-5 pb-24 text-center text-xs text-cream/40 md:pb-5">
         © {year} La Mirage Bistro · Toate drepturile rezervate · Poftă bună!
       </div>
     </footer>

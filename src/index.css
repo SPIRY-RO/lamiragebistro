@@ -45,6 +45,9 @@
   html {
     scroll-behavior: smooth;
   }
+  section[id] {
+    scroll-margin-top: 4.5rem;
+  }
   body {
     @apply bg-background text-foreground antialiased;
     font-family: "Inter", ui-sans-serif, system-ui, sans-serif;

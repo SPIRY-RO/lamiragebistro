@@ -36,16 +36,18 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:h-20 sm:px-8">
         <a href="#top" className="flex items-center gap-3" aria-label="La Mirage Bistro — acasă">
-          <img
-            src="/assets/logo.png"
-            alt="La Mirage Bistro"
-            className="h-11 w-11 rounded-full object-contain sm:h-13 sm:w-13"
-            width={52}
-            height={52}
-          />
-          <span className="font-display text-lg font-bold leading-tight tracking-tight text-forest-deep sm:text-xl">
+          <span className="rounded-full ring-2 ring-gold/50 shadow-lg shadow-forest/20">
+            <img
+              src="/assets/logo.png"
+              alt="La Mirage Bistro"
+              className="h-14 w-14 rounded-full object-contain sm:h-16 sm:w-16"
+              width={64}
+              height={64}
+            />
+          </span>
+          <span className="font-display text-xl font-bold leading-tight tracking-tight text-forest-deep sm:text-2xl">
             La Mirage
-            <span className="block text-[10px] font-semibold uppercase tracking-[0.35em] text-gold">
+            <span className="block text-[11px] font-semibold uppercase tracking-[0.35em] text-gold sm:text-xs">
               Bistro · Pizzerie
             </span>
           </span>
