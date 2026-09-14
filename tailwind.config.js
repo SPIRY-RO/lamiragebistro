@@ -5,6 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        cream: "hsl(var(--cream))",
+        "cream-deep": "hsl(var(--cream-deep))",
+        forest: "hsl(var(--forest))",
+        "forest-deep": "hsl(var(--forest-deep))",
+        moss: "hsl(var(--moss))",
+        gold: "hsl(var(--gold))",
+        "gold-soft": "hsl(var(--gold-soft))",
+        brick: "hsl(var(--brick))",
+        ink: "hsl(var(--ink))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
