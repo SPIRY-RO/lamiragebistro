@@ -92,7 +92,7 @@ export default function Navbar() {
 
       {/* Mobile sheet */}
       <div
-        className={`fixed inset-0 top-16 -z-10 flex flex-col bg-cream px-6 pt-8 transition-all duration-500 md:hidden ${
+        className={`fixed inset-0 top-16 z-40 flex flex-col bg-cream px-6 pt-8 transition-opacity duration-500 md:hidden ${
           open ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0'
         }`}
       >
