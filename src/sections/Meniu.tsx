@@ -72,8 +72,8 @@ export default function Meniu() {
           {list.map((p, i) => (
             <article
               key={p.nr}
-              className="group reveal relative flex flex-col rounded-3xl border border-cream/10 bg-forest/40 p-6 backdrop-blur-sm transition-all duration-500 hover:-translate-y-1.5 hover:border-gold/40 hover:bg-forest/60 hover:shadow-2xl hover:shadow-black/30"
-              style={{ ['--reveal-delay' as string]: `${(i % 6) * 60}ms` }}
+              className="card-in group relative flex flex-col rounded-3xl border border-cream/10 bg-forest/40 p-6 backdrop-blur-sm transition-all duration-500 hover:-translate-y-1.5 hover:border-gold/40 hover:bg-forest/60 hover:shadow-2xl hover:shadow-black/30"
+              style={{ ['--reveal-delay' as string]: `${(i % 6) * 50}ms` }}
             >
               {p.popular && (
                 <span className="absolute -top-3 right-5 rounded-full bg-brick px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-cream shadow-lg">
