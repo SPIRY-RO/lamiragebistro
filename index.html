@@ -1,9 +1,103 @@
 <!doctype html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Mirage Bistro</title>
+
+    <!-- Primary SEO -->
+    <title>La Mirage Bistro — Pizza &amp; Focaccia | Bulevardul Timișoara 44A, București</title>
+    <meta
+      name="description"
+      content="La Mirage Bistro — pizzerie în București, Bulevardul Timișoara nr. 44A. 22 de sortimente de pizza autentică pe blat de 32 cm și 40 cm, focaccia artizanală și sosuri făcute în casă. Livrare la domiciliu. Comenzi: 0793 093 014."
+    />
+    <meta
+      name="keywords"
+      content="pizza București, pizzerie Timișoara, La Mirage Bistro, pizza livrare, focaccia, pizza Sector 6, meniu pizza"
+    />
+    <meta name="author" content="La Mirage Bistro" />
+    <meta name="robots" content="index, follow" />
+    <meta name="geo.region" content="RO-B" />
+    <meta name="geo.placename" content="București" />
+    <meta name="geo.position" content="44.428900;26.038500" />
+    <meta name="ICBM" content="44.428900, 26.038500" />
+    <link rel="canonical" href="https://lamiragebistro.ro/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:site_name" content="La Mirage Bistro" />
+    <meta property="og:title" content="La Mirage Bistro — Pizza autentică în București" />
+    <meta
+      property="og:description"
+      content="22 de sortimente de pizza pe blat de 32 cm și 40 cm, focaccia artizanală și sosuri făcute în casă. Livrare la domiciliu — 0793 093 014."
+    />
+    <meta property="og:image" content="/assets/hero-pizza.jpg" />
+    <meta property="og:url" content="https://lamiragebistro.ro/" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="La Mirage Bistro — Pizza autentică în București" />
+    <meta
+      name="twitter:description"
+      content="Pizza proaspătă, focaccia artizanală, livrare la domiciliu. Bulevardul Timișoara nr. 44A, București."
+    />
+    <meta name="twitter:image" content="/assets/hero-pizza.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+    <link rel="apple-touch-icon" href="/assets/logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured data: Restaurant -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "La Mirage Bistro",
+        "slogan": "Autentic. Proaspăt. Delicios.",
+        "servesCuisine": ["Pizza", "Italiană", "Focaccia"],
+        "priceRange": "40 - 70 RON",
+        "telephone": "+40793093014",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Bulevardul Timișoara nr. 44A",
+          "addressLocality": "București",
+          "addressRegion": "București",
+          "addressCountry": "RO"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 44.4289, "longitude": 26.0385 },
+        "hasMenu": {
+          "@type": "Menu",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Pizza 32 cm / 40 cm",
+              "hasMenuItem": [
+                { "@type": "MenuItem", "name": "Pizza Clasica", "offers": { "@type": "Offer", "price": "42", "priceCurrency": "RON" } },
+                { "@type": "MenuItem", "name": "Pizza Margherita", "offers": { "@type": "Offer", "price": "40", "priceCurrency": "RON" } },
+                { "@type": "MenuItem", "name": "Pizza Fantezie", "offers": { "@type": "Offer", "price": "50", "priceCurrency": "RON" } }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "Focaccia",
+              "hasMenuItem": [
+                { "@type": "MenuItem", "name": "Focaccia simplă", "offers": { "@type": "Offer", "price": "20", "priceCurrency": "RON" } }
+              ]
+            }
+          ]
+        },
+        "acceptsReservations": "False",
+        "url": "https://lamiragebistro.ro/"
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
